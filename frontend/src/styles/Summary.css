@@ -1,0 +1,82 @@
+.summary-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.generate-btn {
+  background-color: #6b46c1;
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.2s;
+}
+
+.generate-btn:hover {
+  background-color: #553c9a;
+}
+
+.generate-btn:disabled {
+  background-color: #9f7aea;
+  cursor: not-allowed;
+}
+
+.summary-content {
+  flex: 1;
+  background-color: #f8fafc;
+  border-radius: 6px;
+  padding: 1.5rem;
+  min-height: 300px;
+}
+
+.no-summary {
+  color: #718096;
+  font-style: italic;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.summary-text h3 {
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+.summary-body {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  white-space: pre-line;
+}
+
+.slack-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #48bb78;
+  font-weight: 500;
+}
+
+.slack-icon {
+  background-color: #48bb78;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+}
+
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #718096;
+}
